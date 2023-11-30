@@ -12,15 +12,33 @@ html {
 }
 
 body {
-    background-color: rgb(241, 208, 168);
+    background-color: #90EAC7;
     font-size: 20px;
     text-align: center;
 }
 
-/* HEADER */
+#testo *{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+
+#nomecognome , #colore , #classe {
+    background-color: rgb(189, 135, 67);
+    border: 2px solid red;
+    border-radius: 30px;
+}
+
+#nomecognome {
+    font-size: 30px;
+}
+
+#colore {
+    font-size: 20px;
+}
+
+#classe {
+    font-size: 10px;
+}
 
 
-/* MAIN */
-
-
-/* FOOTER */
