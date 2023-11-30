@@ -7,7 +7,15 @@
 
 /* GENERAL */
 
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+body {
+    background-color: rgb(241, 208, 168);
+    font-size: 20px;
+    text-align: center;
+}
 
 /* HEADER */
 
