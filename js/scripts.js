@@ -24,4 +24,4 @@ e ne SOVRASCRIVE il contenuto tramite inner.HTML*/
 
 const myPass = (nome + cognome + colorePreferito + nClasse);
 
-document.getElementById('pswContainer').innerHTML = 'Password:' + myPass;
+document.getElementById('psw').innerHTML = myPass;
