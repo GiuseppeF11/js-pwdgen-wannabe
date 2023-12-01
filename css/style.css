@@ -13,8 +13,14 @@ html {
 
 body {
     background-color: #90EAC7;
+}
+
+body div{
     font-size: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #testo *{
@@ -28,17 +34,4 @@ body {
     border: 2px solid red;
     border-radius: 30px;
 }
-
-#nomecognome {
-    font-size: 30px;
-}
-
-#colore {
-    font-size: 20px;
-}
-
-#classe {
-    font-size: 10px;
-}
-
 

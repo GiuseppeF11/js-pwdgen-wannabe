@@ -1,28 +1,27 @@
+/* 
+    1)CHiedi all'utente il nome
+    2)Chiedi all'utente il cognome
+    3)Chiedi il suo colore preferito
+    4)Infine scrivi sulla pagina nome cognome colore preferito e la classe
+
+*/
+
 //Prompt login
 const nome = prompt('Inserisci il tuo nome');
-
-console.log(nome);
+console.log('nome' , nome , typeof nome);
 
 const cognome = prompt('Inserisci il tuo cognome');
-
-console.log(cognome);
+console.log('cognome' , cognome , typeof cognome);
 
 const colorePreferito = prompt('Inserisci il tuo colore preferito');
+console.log('colore' , colorePreferito , typeof colorePreferito);
 
-console.log(colorePreferito);
-
-const numeroClasse = prompt('Inserisci il numero della tua classe');
-
-console.log(numeroClasse);
+const nClasse = prompt('Inserisci il numero della tua classe');
+console.log('classe' , nClasse , typeof nClasse);
 
 /* La variabile recupera i tag del HTML tramite l'id 
 e ne SOVRASCRIVE il contenuto tramite inner.HTML*/
 
-let myName = document.getElementById('nomecognome').innerHTML = 'Benvenuto '+ nome + cognome;
+const myPass = (nome + cognome + colorePreferito + nClasse);
 
-let myColor = document.getElementById('colore').innerHTML = 'che ama il ' + colorePreferito;
-
-let myClass = document.getElementById('classe').innerHTML = 'della classe #' + numeroClasse + ' sempre al top';
-
-const myVar = document.getElementById('testo');
-
+document.getElementById('pswContainer').innerHTML = 'Password:' + myPass;
